@@ -1,0 +1,45 @@
+@media(max-width: 750px) {
+    /* alinha o todo */
+    .pokedevs {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0;
+    }
+
+    /* Largura máxima para o cartão */
+    .cartao-pokedevs {
+        max-width: 300px;
+    }
+
+    /* Arrumando a descrição */
+    .cartao-pokedev .cartao-informacoes {
+        padding: 60px 30px 30px;
+        margin-top: -50px;
+    }
+
+    /* Declarando o tamanho da fonte da descrição */
+    .cartao-pokedev .cartao-informacoes h3 {
+        font-size: 16px;
+    }
+
+    /* Largura máxima da listagem */
+    .listagem {
+        max-width: 360px;
+    }
+
+    /* Arrumando os cartõezinhos pokedevs */
+    .listagem .pokedev {
+        width: 45%;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-radius: 8px;
+    }
+
+    /* Centralizando os cartõezinhos pokedevs */
+    .listagem ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+}
